@@ -28,6 +28,22 @@ classification_tasks/
 │ │ │ ├── model_ours.pt
 │ │ │ └── model_fedprox.pt
 
+classification_tasks/
+<dataset>/
+<network>/ # (optional, only if multiple networks have been used)
+exp_0/
+results.json
+model_ours.pt
+model_fedprox.pt
+exp_1/
+results.json
+model_ours.pt
+model_fedprox.pt
+
+segmentation_tasks/
+<dataset>/
+<network>/ # similar structure
+
 - `results.json`: Contains the evaluation metrics and configuration used for the experiment.
 - `model_ours.pt`: Trained model using our custom approach.
 - `model_fedprox.pt`: Trained model using the FedProx method.

@@ -15,18 +15,19 @@ Each experiment folder includes:
 
 ## Folder Structure Example
 
+```plaintext
 classification_tasks/
-├── code.py (''')
-├── <dataset>/ '''
-│ ├── <dataset_networ>/ # (optional, only if multiple networks have been used)
-│ │ ├── dataset_network_0/ # (optional, only if multiple experiments have been performed)
-│ │ │ ├── results.json
-│ │ │ ├── model_ours.pt
-│ │ │ └── model_fedprox.pt
-│ │ ├── dataset_network_1/
-│ │ │ ├── results.json
-│ │ │ ├── model_ours.pt
-│ │ │ └── model_fedprox.pt
+  code.py
+  <dataset>/
+    <dataset_network>/                 # (optional, only if multiple networks have been used)
+      dataset_network_0/              # (optional, only if multiple experiments have been performed)
+        results.json
+        model_ours.pt
+        model_fedprox.pt
+      dataset_network_1/
+        results.json
+        model_ours.pt
+        model_fedprox.pt
 
 - `results.json`: Contains the evaluation metrics and configuration used for the experiment.
 - `model_ours.pt`: Trained model using our custom approach.

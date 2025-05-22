@@ -16,7 +16,7 @@ Each experiment folder includes:
 ## Folder Structure Example
 
 classification_tasks/
-├── code.py '''
+├── code.py (''')
 ├── <dataset>/ '''
 │ ├── <dataset_networ>/ # (optional, only if multiple networks have been used)
 │ │ ├── dataset_network_0/ # (optional, only if multiple experiments have been performed)

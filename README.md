@@ -1,4 +1,4 @@
-This repository contains the code, results, and trained models from our experiments.
+This repository contains the code, results, and trained models obtained with our experiments.
 
 - The content is organized **first by task type**, with two top-level folders:
   - `classification_tasks/`
